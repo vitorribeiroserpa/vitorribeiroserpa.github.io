@@ -1,0 +1,126 @@
+
+/* Estilização da tag body */
+body {
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f8f9fb;
+}
+/* Estilização da tag header */
+header {
+    background-color: #3066be;
+    width: 100%;
+    padding: 0px 0;
+    border-radius: 15px;
+}
+/* Estilização da barra de navegação */
+nav {
+    margin: 5px;
+    padding: 2px;
+    background-color: #3066be;
+    border-radius: 15px;
+}
+/* Estilização da lista presente dentro da barra de navegação */
+nav ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #3066be;
+}
+/* Estilização do item da lista presente dentro da barra de navegação */
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;   
+}
+/* Estilização do link presente no item da lista, presente dentro da barra de navegação */
+nav ul li a{
+    color: #e1ecf7;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+    background-color: #3066be;
+}
+/* Comportamento do link da lista do cabeçalho quando o mouse se localiza acima deste */
+nav ul li a:hover {
+    background-color: #042f75;
+}
+/* Estilização do tag section */
+section {
+    border-radius: 10px;
+}
+/* Estilização da tag h1 */
+section h1 {
+    text-align: center;
+    background-color: #1565c0a1;
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+}
+/* Estilização da tag h2 */
+section h2 {
+    padding: 0px;
+    border-radius: 15px;
+    color: #274060;
+}
+
+/* Estilização da classe formacao */
+.formacao {
+    background-color: #e1ecf7;
+    border-radius: 20px;
+    padding: 10px;
+    color: #296eb4;
+}
+/* Estilização do item da lista presente na tag section */
+section ul li {
+    list-style-type: none;
+    margin: 5px 0;
+}
+/* Estilização da tag p */
+p {
+    background-color: #e1ecf7;
+    border-radius: 20px;
+    padding: 10px;
+    color: #296eb4;
+}
+/* Estilização da tag form */
+form {
+    background-color: #e1ecf7;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+/* Estilização do tag label */
+label {
+    color: #296eb4;
+    font-weight: bold;
+}
+/* Estilização da tag input */
+input {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+/* Estilização da tag button */
+button {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #1565c0a1;
+    border-radius: 10px;
+}
+/* Estilização da tag button quando o mouse está acima deste */
+button:hover {
+    background-color: #3066be;
+}
